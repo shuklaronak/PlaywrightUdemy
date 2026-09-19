@@ -1,0 +1,19 @@
+Login to Azure Portal.
+- Create new resource
+- Search for 'Playwright workspace'
+- Create
+- Fill details Give new resource name if needed.
+- review+Create
+- Create
+- Will take 5 mins
+- go to resource
+- Get started steps will show the next steps
+
+
+for step 4:
+az storage account show \
+    --name "pwstrgresource011459" \
+    --resource-group "Resource01" \
+    --query id -o tsv
+
+az role assignment create --assignee "617af757-2850-4649-96f4-0b436c5f44f5" --role "Storage Blob Data Contributor" --scope "$(az storage account show --name pwstrgresource011459 --resource-group Resource01 --query id -o tsv)"

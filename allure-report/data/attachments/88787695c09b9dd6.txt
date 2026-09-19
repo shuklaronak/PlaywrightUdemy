@@ -1,0 +1,9 @@
+Page Title: Let's Shop
+Products: ADIDAS ORIGINAL,ZARA COAT 3,iphone 13 pro
+count: 2
+cont:  British Indian Ocean Territory
+cont:  India
+6aad7c142be7a4bc2b58ff99
+OrderCount: 7
+id: 6aad7c142be7a4bc2b58ff99
+6aad7c142be7a4bc2b58ff99

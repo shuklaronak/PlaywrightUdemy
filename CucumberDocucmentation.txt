@@ -1,0 +1,26 @@
+Install cucumber
+    command: npm install @cucumber/cucumber
+
+To run cucumber feature files
+    command: npx cucumber-js --exit
+
+To run specific feature files
+    command: npx cucumber-js features/Ecommerce.feature --exit
+
+To run with specific tag
+    command: npx cucumber-js --tags '@TC1' --exit
+
+Parameterization
+    using Scenario Outline Examples
+
+Parallel Execution
+    cucumber can only run scenarios in Parallel
+    It can  NOT run feature files in Parallel
+
+    command: npx cucumber-js --tags '@AllTC' --parallel 2 --exit
+
+HTML report
+    command: npx cucumber-js --tags '@AllTC' --exit --format html:cucumber-result.html 
+
+Retry failed tc
+    command: npx cucumber-js --tags '@AllTC' --parallel 2 --retry 1 --exit

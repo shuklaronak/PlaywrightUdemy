@@ -1,0 +1,29 @@
+Run using the package.json file scripts
+    command: npm run smoke    Syntax: npm run <package.json script name>
+
+To run in debug mode
+    command: npm playwright test --debug
+
+To run thorugh playwright UI
+    command: npx playwright test --ui
+
+To run tagged tests
+    command: npx playwright test --grep '@Smoke'
+
+To run with specific playwright config file
+    command: npx playwright test --config playwright.configCustom.js
+
+To run with specific config file and specific project in it
+    command: npx playwright test --config playwright.configCustom.js --project=webkit_execution
+
+To run the complete test folder with all tests
+    command: npm playwright test
+
+To run a specific test file
+    command: command: npm playwright test tests/<filename>
+
+To run in headed mode
+    command: npm playwright test --headed
+
+To run in Azure playwright workspace
+    command:  npx playwright test --config=playwright.service.config.ts --workers=4

@@ -1,0 +1,14 @@
+Install Allure Reporting
+    command: npm install --save-dev @playwright/test allure-playwright
+    command: npm install -g allure-commandline
+
+
+To generate Allure report, run with this command
+    command: npx playwright test tests/UI10_PageObjectDemo.spec.js --reporter=line,allure-playwright
+line generates a report in simple text format and allure-playwright converts it into allure format report. (allure-results) folder is created
+
+After execution is complete using the above command, run below command to generate the allure report (allure-report) folder is generated
+    command: allure generate ./allure-results --clean
+
+New allure-report) folder is created. Command to open report
+    command: allure open ./allure-report

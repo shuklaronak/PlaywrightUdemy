@@ -1,0 +1,8 @@
+Page Title: Let's Shop
+Products: ADIDAS ORIGINAL,ZARA COAT 3,iphone 13 pro
+count: 1
+cont:  Cuba
+6aad7c202be7a4bc2b58ffc3
+OrderCount: 7
+id: 6aad7c202be7a4bc2b58ffc3
+6aad7c202be7a4bc2b58ffc3

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","25960","Page object client app test data through JSON file johndoe05@gmail.com","","2026-09-18","passed","2026-09-18","","UI10_PageObjectDemo.spec.js","",""
+"","31964","Page object client app using test data from fixture","","2026-09-18","broken","2026-09-18","","UI10_PageObjectDemo.spec.js","",""
+"","12251","Page object client app test data through JSON file johndoe04@gmail.com","","2026-09-18","passed","2026-09-18","","UI10_PageObjectDemo.spec.js","",""
