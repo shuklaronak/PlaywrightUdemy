@@ -3,7 +3,7 @@ on:                     #EVENTS: The condition on which the test should be trigg
   push:                                   # On push to main or master branch it should trigger test
     branches: [ main, master ]
   pull_request:
-    branches: [ main, master ]            # On pull to main or master branch it should trigger test
+    branches: [ main, master ]            # On pull to main or master branch it should trigger test 
 jobs:                           
   test:
     timeout-minutes: 60
